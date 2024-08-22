@@ -2,6 +2,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	background-color: #e0e0eb;
 }
 
 table {
@@ -67,7 +68,6 @@ ul {
 
 .content {
 	text-align: center;
-	background-color: #e0e0eb;
 	padding: 10px 10px;
 	position: absolute;
 	margin-left: 10px

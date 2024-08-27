@@ -27,6 +27,11 @@ table {
 	border-collapse: collapse;
 }
 
+h1 {
+	text-shadow: 2px 2px 5px white;
+	font-family: Times;
+}
+
 .intro_table {
 	margin-left: auto;
 	margin-right: auto;
@@ -39,7 +44,8 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 550px;
-	font-family: Times;
+	font-family: Helvetica;
+	font-size: 14px;
 }
 .copyright {
 	font-family: Times;
@@ -47,14 +53,14 @@ table {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-  width: 100%;
+  	width: 100%;
 	font-size: 9px;
 	text-align: center;
 }
 
 .sidebar {
 	width: 220px;
-  background-color: #003366;
+  	background-color: #003366;
 	border-collapse: collapse;
 	vertical-align: top;
 	height: 100%;
@@ -86,5 +92,5 @@ table {
 	position: absolute;
 	margin-left: 10px
 	right: 0;
-  width: calc(100% - 240px);
+  	width: calc(100% - 240px);
 }

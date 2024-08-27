@@ -27,6 +27,11 @@ table {
 	border-collapse: collapse;
 }
 
+h1 {
+	text-shadow: 2px 2px 5px white;
+	font-family: Times;
+}
+
 .intro_table {
 	margin-left: auto;
 	margin-right: auto;

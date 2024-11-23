@@ -8,6 +8,9 @@ body, html {
 	cursor: url('/arrow.cur'), auto;
 }
 
+p:hover, h1:cover, h2:cover, h3:cover {
+	cursor:url('/select.cur'), auto;
+}
 
 td {
 	padding: 0;

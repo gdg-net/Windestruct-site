@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>WinDestruct</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="/sidebar.js"></script>
+  </head>
+
+  <body>
+    <table>
+        <tr>
+        	<td class="sidebar" id="sidebar">
+                	<img src="/favicon.jpg" alt="WinDestruct" style="display: block; margin-left: auto; margin-right: auto; width: 50px; height: auto;">
+			<br>
+			<ul>
+                        	<li><a href="/">Home</a></li>
+                        	<li><a href="/creations/">Creations</a></li>
+                        	<li><a href="/contact/">Contact</a></li>
+                    	</ul>
+                    	<p class="copyright"> © Copyright 2024, WinDestruct and developers. </p>
+                </td>
+                <td class="content">
+			<h1 style="text-align: center;">Windows 95 RAMdrive</h1>
+			<h2>Introduction</h2>
+			<p style="font-family: Times;">Ever wanted to run Windows 95 but you didn't have a hard drive in hand? Wanted to copy files from an old computer? Or just needed to quickly diagnose a computer without writing any files? This CD is just right for you.</p>
+			<h2>Why?</h2>
+			<p style="font-family: Times;">I once started a Windows 98 boot floppy and noticed it made a RAMdrive for its tools. I thought to myself: "What if Windows could run inside it?". And this is where the idea started. I created it as a diagnostic tool with Win16/32 base for PCs without a hard drive.</p>
+			<p style="font-family: Times;">It allows Windows 95 to run inside a RAMdrive environment. You need a computer with at least 44MB of RAM to run this product. You can use multiple drive sizes (32-256MB), but RAM is always limited to 512MB for compatibility.</p>
+			<h2>How?</h2>
+			<p style="font-family: Times;">I began by installing and patching (for modern hardware) Windows 95 RTM (to save up space) to Virtual PC 2007 in order to minimize driver installations. Then, I moved/deleted as much files as I could to shrink the hard drive space and keep it functional at the same time. For example, I moved programs and color profiles to separate directories on the CD and removed majority of Help files (I still wanted to keep the main Help file).</p>
+			<p style="font-family: Times;">Then, I started writing a boot floppy image to start it up. After many errors, I managed to do it. Drivers initialized themselves, Windows copied itself to RAM and started up successfully. I also included an option to load more modern drivers (like SATA and USB CD drivers) for modern computers.</p>
+			<p style="font-family: Times;">Next, I added diagnostic tools, programs and games to a folder on my drive that I would use to make a CD drive image. I finished it all with CDBurnerXP.</p>			
+			<br>
+			<table class="download" id="download">
+							<tr>
+								<td>
+									<a href="Win95.iso">Direct ISO download</a>
+								</td>	
+							<tr>
+								<td>
+									<a href="https://archive.org/details/win-95-ramdrive">Internet Archive</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="https://www.youtube.com/watch?v=LAFVsh_1u_s">YouTube video</a>
+								</td>
+							</tr>	
+			</table>
+						
+                </td>
+            </tr>
+    </table>
+  </body>
+</html>

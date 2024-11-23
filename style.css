@@ -12,7 +12,7 @@ a:hover {
 	cursor: url('/hand.cur'), auto;
 }
 
-p:hover, h1:cover, h2:cover, h3:cover {
+p:hover, h1:hover, h2:hover, h3:hover {
 	cursor: url('/select.cur'), auto;
 }
 

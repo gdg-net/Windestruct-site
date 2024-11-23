@@ -5,6 +5,11 @@ body, html {
 	height: 100%;
 	background-image: url('background.jpg'); 
 	background-size: cover;
+	cursor: url('/arrow.cur'), auto;
+}
+
+a:hover {
+	cursor: url('/hand.cur'), auto;
 }
 
 td {
